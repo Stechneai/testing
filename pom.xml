@@ -12,12 +12,6 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>NewProject</groupId>
 			<artifactId>NewProject</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
@@ -59,6 +53,13 @@
 			<artifactId>extentreports</artifactId>
 			<version>2.41.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
+<dependency>
+    <groupId>org.apache.tomcat.embed</groupId>
+    <artifactId>tomcat-embed-core</artifactId>
+    <version>10.1.5</version>
+</dependency>
+
 	</dependencies>
 	
 	<repositories>
